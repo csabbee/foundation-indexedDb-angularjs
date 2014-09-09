@@ -30,5 +30,10 @@ angular
         url: '/about',
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .state('cart', {
+        url: '/cart',
+        templateUrl: 'views/cart.html'
+        // controller: 'AboutCtrl'
       });
   });
