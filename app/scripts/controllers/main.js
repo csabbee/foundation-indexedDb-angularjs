@@ -8,10 +8,10 @@
  * Controller of the indexexDbApp
  */
 angular.module('indexexDbApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl',[ '$scope', 'Cart', function ($scope, Cart) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  });
+  }]);
